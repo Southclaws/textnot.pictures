@@ -72,19 +72,33 @@
     </p>
     <pre>
 ```js
-lines.forEach(function(title) {
-  innerHtml += '<tr class="title"><th>' + title + '</th></tr>';
-});
-```</pre>
+(async function(){
+  let books = await getAllBooks();
+  console.log(books);
+})();
+```</pre
+    >
     <p>And Stackoverflow uses 4-spaces of indentation:</p>
     <pre>
-    lines.forEach(function(title) {
-      innerHtml += '<tr class="title"><th>' + title + '</th></tr>';
-    });</pre>
+    (async function(){
+      let books = await getAllBooks();
+      console.log(books);
+    })();</pre
+    >
     <p>
       Hopefully this has been informative. Now whenever you're helping someone and they share an image of their code or
       error messages, help them anyway but direct them here so they don't make the same mistake next time!
     </p>
+    <br />
+    <p>
+      Other similar problems: <a href="https://dontasktoask.com">Don't Ask to Ask, Just Ask</a>,
+      <a href="http://xyproblem.info/">The XY Problem</a>, <a href="http://nohello.com/">No Hello</a>.
+    </p>
+    <p>
+      Further reading: <a href="https://stackoverflow.com/help/how-to-ask">How do I ask a good question?</a>,
+      <a href="http://catb.org/~esr/faqs/smart-questions.html">How To Ask Questions The Smart Way</a>.
+    </p>
+    <hr />
   </body>
   <footer>
     Made with ❤️ by <a href="https://www.southcla.ws">Southclaws</a> |

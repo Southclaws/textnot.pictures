@@ -35,6 +35,14 @@ pre {
   background-color: hsl(200deg, 8%, 70%);
 }
 
+hr {
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-style: solid;
+  border-radius: 45px;
+}
+
 footer {
   margin : 32px 0px 10px 0px;
   font-size: 10pt;
