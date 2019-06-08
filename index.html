@@ -3,13 +3,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
     <title>Don't Post Text as an Image!</title>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-78828365-8"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'UA-78828365-8');
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-78828365-8");
     </script>
   </head>
   <body>
@@ -17,14 +20,48 @@
     <h2>Why?</h2>
     <p>
       Taking a screenshot of your code, terminal, errors or anything fundamentally text-based is counter-productive for
-      everyone involved.
+      everyone involved. The reasons for this are listed below:
     </p>
-    <p>This:
-        <ol>
-            <li>Removes the ability for the content to be indexed by search engines.</li>
-            <li>Possibly increases the network traffic required to view the content (Very important for users with constrained internet connections).</li>
-            <li>Potentially adds an extra click if the person helping you doesn't enable in-line images.</li>
-        </ol>
+    <ul>
+      <li>
+        <h3>People cannot copy/edit.</h3>
+        <p>
+          When you're asking for help, other users often want to copy your code into their own editing environment so
+          they can modify the code and send back a fixed version or highlight mistakes. Posting an image means the only
+          way to do this is to painstakingly copying the text.
+        </p>
+      </li>
+      <li>
+        <h3>Cannot be indexed.</h3>
+        <p>
+          Posting questions doesn't just help you, but it also helps all people in the future who search for the same
+          question using keywords or error messages. When you post an image of text, the website itself and search
+          engines cannot easily index the content for search purposes.
+        </p>
+      </li>
+      <li>
+        <h3>Obscures important information.</h3>
+        <p>
+          When trying to share error messages from terminals, consoles, browser tools, etc. images often cut off
+          important parts of the message, especially with long messages.
+        </p>
+      </li>
+      <li>
+        <h3>Potentially more expensive.</h3>
+        <p>
+          A picture isn't always worth a thousand words. Posting an image may result in a higher cost for users on
+          metered connections. Some users may even have images disabled completely on platforms such as Discord or
+          Slack. Be thoughtful of those who may not have unlimited internet access.
+        </p>
+      </li>
+    </ul>
+    <p>
+      Hopefully this has been informative. Now whenever you're helping someone and they share an image of their code or
+      error messages, help them anyway but direct them here so they don't make the same mistake next time!
     </p>
   </body>
+  <footer>
+    Made with ❤️ by <a href="https://www.southcla.ws">Southclaws</a> |
+    <a href="https://github.com/Southclaws/textnot.pictures/">Contribute here!</a>
+  </footer>
 </html>

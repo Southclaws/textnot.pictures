@@ -1,0 +1,31 @@
+body {
+  width: 100%;
+  max-width: 786px;
+  margin: 32px auto 0px auto;
+
+  background-color: lightgrey;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+p {
+  padding: 0px 20px 0px 20px;
+}
+
+ul {
+  padding: 0px;
+}
+
+
+li {
+  margin: 10px;
+  padding: 1px 10% 1px 10%;
+  border-radius: 10px;
+  background-color: hsl(200deg, 8%, 70%);
+  list-style: none;
+}
+
+footer {
+  margin : 32px 0px 10px 0px;
+  font-size: 10pt;
+}
