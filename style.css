@@ -25,6 +25,16 @@ li {
   list-style: none;
 }
 
+pre {
+  margin: 0px auto 0px auto;
+  padding: 4px;
+  border-radius: 4px;
+  line-height: 1.0;
+  max-width: 300px;
+  text-align: left;
+  background-color: hsl(200deg, 8%, 70%);
+}
+
 footer {
   margin : 32px 0px 10px 0px;
   font-size: 10pt;
